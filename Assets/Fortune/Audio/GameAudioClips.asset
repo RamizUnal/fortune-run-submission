@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cee0a5dd17cd64ffd9788fe1a6b7c9f6, type: 3}
+  m_Name: GameAudioClips
+  m_EditorClassIdentifier: Assembly-CSharp::Vertigo.Fortune.Presentation.GameAudioClips
+  MasterVolume: 0.72
+  SpinStart:
+    Clip: {fileID: 8300000, guid: c2d97ccedb7c444789e07386cec341d1, type: 3}
+    Gain: 0.68
+    Pitch: 1
+    StartTime: 0
+  Detent:
+    Clip: {fileID: 8300000, guid: 232655c3fa80c41cab413d478aca5eca, type: 3}
+    Gain: 0.25
+    Pitch: 1.05
+    StartTime: 0
+  SpinStop:
+    Clip: {fileID: 8300000, guid: b276c1b8a0fd24ad786f0200ec0f5ae0, type: 3}
+    Gain: 0.62
+    Pitch: 1
+    StartTime: 0.14
+  Currency:
+    Clip: {fileID: 8300000, guid: aace61a4660714c86b96a700a88a1961, type: 3}
+    Gain: 0.6
+    Pitch: 1.08
+    StartTime: 0
+  Common:
+    Clip: {fileID: 8300000, guid: a84389df9a51d4a65ad6cbfde2c1d7e7, type: 3}
+    Gain: 0.85
+    Pitch: 1
+    StartTime: 0
+  Uncommon:
+    Clip: {fileID: 8300000, guid: c5f886bc1b4f54c52a1d6f1c106393e5, type: 3}
+    Gain: 0.52
+    Pitch: 1
+    StartTime: 0
+  Rare:
+    Clip: {fileID: 8300000, guid: 815daa4f38df94d1ab39a1824c08af0c, type: 3}
+    Gain: 0.42
+    Pitch: 1
+    StartTime: 0
+  Epic:
+    Clip: {fileID: 8300000, guid: cd0d4020b753a4483ba71e8ee4d0f98a, type: 3}
+    Gain: 0.36
+    Pitch: 1
+    StartTime: 0
+  Legendary:
+    Clip: {fileID: 8300000, guid: c5c4b6a3f0b0d4c42a058c9d24397f30, type: 3}
+    Gain: 0.44
+    Pitch: 1
+    StartTime: 0
+  Flight:
+    Clip: {fileID: 8300000, guid: cbb0fd7efeed846f1a6687597d974577, type: 3}
+    Gain: 0.7
+    Pitch: 1.22
+    StartTime: 0
+  Arrival:
+    Clip: {fileID: 8300000, guid: ff50505590b9845658b39237337a24cf, type: 3}
+    Gain: 0.53
+    Pitch: 1
+    StartTime: 0
+  Bank:
+    Clip: {fileID: 8300000, guid: aace61a4660714c86b96a700a88a1961, type: 3}
+    Gain: 0.48
+    Pitch: 1
+    StartTime: 0
+  BombArm:
+    Clip: {fileID: 8300000, guid: f9a097be38e7044d0958684e560161c5, type: 3}
+    Gain: 0.62
+    Pitch: 0.94
+    StartTime: 0
+  BombImpact:
+    Clip: {fileID: 8300000, guid: fe21b04b940ad48dc958d6d0ac38b51c, type: 3}
+    Gain: 0.58
+    Pitch: 1
+    StartTime: 0
+  BombDebris:
+    Clip: {fileID: 8300000, guid: 211382f4a23194c259620e40a17bd7f0, type: 3}
+    Gain: 0.16
+    Pitch: 1
+    StartTime: 0
+  Click:
+    Clip: {fileID: 8300000, guid: 1f3c3a38ca9ac47ea80fcc566ebfee17, type: 3}
+    Gain: 0.68
+    Pitch: 1
+    StartTime: 0

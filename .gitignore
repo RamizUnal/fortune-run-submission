@@ -1,0 +1,63 @@
+# Unity generated caches and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/.utmp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/Assets/AssetStoreTools*
+/Assets/_Recovery/
+/Assets/_Recovery.meta
+/Assets/savedscene.unity
+/Assets/savedscene.unity.meta
+
+# Player build artifacts
+*.apk
+*.aab
+*.app/
+
+# Temporary files
+*.tmp
+*.temp
+*.pid
+*.log
+*.stackdump
+sysinfo.txt
+__pycache__/
+*.pyc
+
+# IDE-generated files
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.booproj
+*.svd
+
+# Private signing/configuration material
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# Local assignment brief; artwork sources are intentionally retained.
+/Vertigo Games Game Developer Demo.pdf
+
+# Operating-system metadata
+.DS_Store
+._*
+Thumbs.db
+Desktop.ini

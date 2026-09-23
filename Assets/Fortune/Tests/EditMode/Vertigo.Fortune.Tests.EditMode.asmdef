@@ -1,0 +1,15 @@
+{
+  "name": "Vertigo.Fortune.Tests.EditMode",
+  "rootNamespace": "Vertigo.Fortune.Tests",
+  "references": ["Vertigo.Fortune.Domain"],
+  "includePlatforms": ["Editor"],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"],
+  "versionDefines": [],
+  "noEngineReferences": true,
+  "optionalUnityReferences": ["TestAssemblies"]
+}

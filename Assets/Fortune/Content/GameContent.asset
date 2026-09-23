@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa1454ea6cbcf4136b72aa24800661b4, type: 3}
+  m_Name: GameContent
+  m_EditorClassIdentifier: Vertigo.Fortune.Content::Vertigo.Fortune.Content.GameContent
+  Catalog: {fileID: 11400000, guid: 74697a9c11a5546a6b72c92681be997a, type: 2}
+  Bronze: {fileID: 11400000, guid: b93f475184522486196d153becfb8e3d, type: 2}
+  Silver: {fileID: 11400000, guid: c9403cdcf5f4e40ff9b4ae6ef151f0fb, type: 2}
+  Golden: {fileID: 11400000, guid: b6ae473fce1b343238e644d5284492b0, type: 2}
+  Atlas: {fileID: 4343727234628468602, guid: f79d90e961de34c46a06c52e41d781cf, type: 2}
+  SpinDuration: 4.2
+  sprites:
+  - Name: UI_Icon_Renders_tier1_shotgun
+    Sprite: {fileID: 21300000, guid: c2e2ce0a6c6b148c983ada0b1fcae715, type: 3}
+  - Name: UI_Icon_Renders_tier2_mle
+    Sprite: {fileID: 21300000, guid: 28eeef6fc1f194fde936bb8872e6d97d, type: 3}
+  - Name: UI_Icon_Renders_tier2_rifle
+    Sprite: {fileID: 21300000, guid: 56bd816ff75134e6cb775d253e0cada9, type: 3}
+  - Name: UI_Icon_Renders_tier3_shotgun
+    Sprite: {fileID: 21300000, guid: dd7bf8e8183144fb28e809b94ba168f0, type: 3}
+  - Name: UI_Icon_Renders_tier3_smg
+    Sprite: {fileID: 21300000, guid: c173c67339afd409080a170328b7710a, type: 3}
+  - Name: UI_Icon_Renders_tier3_sniper
+    Sprite: {fileID: 21300000, guid: c9f456e3ae78a498fb96e7c0384550c8, type: 3}
+  - Name: UI_Icons_Armor_Points
+    Sprite: {fileID: 21300000, guid: 3068b117c8d4940cba90288027c50162, type: 3}
+  - Name: UI_Icons_Knife_Points
+    Sprite: {fileID: 21300000, guid: f3190b6774a8d482e851c009748e6c3a, type: 3}
+  - Name: UI_Icons_Pistol_Points
+    Sprite: {fileID: 21300000, guid: fca6dc49fa5fd49f9b25e3800fc5d707, type: 3}
+  - Name: UI_Icons_Pistol_Points_
+    Sprite: {fileID: 21300000, guid: e65bd6a60b2bb4b9fbb2484fd7f3a76a, type: 3}
+  - Name: UI_Icons_Rifle_Points
+    Sprite: {fileID: 21300000, guid: 217fc7d8896024b09b1da338e8a644ce, type: 3}
+  - Name: UI_Icons_SMG_Points
+    Sprite: {fileID: 21300000, guid: 3b681fe8ae06944f7be292a3bf809332, type: 3}
+  - Name: UI_Icons_Shotgun_Points
+    Sprite: {fileID: 21300000, guid: e82c03ff60742420c9f7d261e1645dd6, type: 3}
+  - Name: UI_Icons_Sniper_Points
+    Sprite: {fileID: 21300000, guid: dac690d6d18094a1f9ac60c5d1de77c4, type: 3}
+  - Name: UI_Icons_Submachine_Points
+    Sprite: {fileID: 21300000, guid: 64eee0f0de44341ab903996ccc69c59b, type: 3}
+  - Name: UI_Icons_Vest_Points
+    Sprite: {fileID: 21300000, guid: 0ee46b07cee9646dfb58f3cac03cd999, type: 3}
+  - Name: UI_button_grey_standard
+    Sprite: {fileID: 21300000, guid: b35819229e2184c01865fb77dfe36ee8, type: 3}
+  - Name: UI_button_orange_standard
+    Sprite: {fileID: 21300000, guid: 637587f08d901462e8c7292ed0d41b62, type: 3}
+  - Name: UI_icon_cash
+    Sprite: {fileID: 21300000, guid: cb6165ce3f42346a3bc975993bccbf80, type: 3}
+  - Name: UI_icon_chest_Bronze_nolight
+    Sprite: {fileID: 21300000, guid: 22b2089d72ab2481ba29351cd6820e04, type: 3}
+  - Name: UI_icon_chest_big_nolight
+    Sprite: {fileID: 21300000, guid: 08c83f6975f704a9eaa904386aa80289, type: 3}
+  - Name: UI_icon_chest_gold_nolight
+    Sprite: {fileID: 21300000, guid: d3c1cd4213f53431489dfc3e61bc6a12, type: 3}
+  - Name: UI_icon_chest_silver_nolight
+    Sprite: {fileID: 21300000, guid: 16085ef95504541bb80263fbaee3fb9d, type: 3}
+  - Name: UI_icon_chest_small_noligt
+    Sprite: {fileID: 21300000, guid: 8a5c71392823648568238e9050d8c276, type: 3}
+  - Name: UI_icon_chest_standart_nolight
+    Sprite: {fileID: 21300000, guid: ffb581bed7d6b45caa50a1a2469cef58, type: 3}
+  - Name: UI_icon_chest_super_nolight
+    Sprite: {fileID: 21300000, guid: ec75c2ea3cc4b403cbd0891d88b9d204, type: 3}
+  - Name: UI_icon_gold
+    Sprite: {fileID: 21300000, guid: 41f4b35b4482c460ab311249f308f3e0, type: 3}
+  - Name: star_flash_alpha
+    Sprite: {fileID: 21300000, guid: cf1aa2b0005144223a1ff8431f05dec8, type: 3}
+  - Name: star_glow_alpha
+    Sprite: {fileID: 21300000, guid: bac2ccfa2d7c6401b9c5528abe9c2be0, type: 3}
+  - Name: ui_card_frame_12px_neutral
+    Sprite: {fileID: 21300000, guid: 6b23dda2bf4364763925c62e47835a69, type: 3}
+  - Name: ui_card_frame_4px_zone
+    Sprite: {fileID: 21300000, guid: 71cfd52e319644c3db22f876926fa64b, type: 3}
+  - Name: ui_card_frame_gardient
+    Sprite: {fileID: 21300000, guid: 1465a550faf8147e6b16d086c73a7fd9, type: 3}
+  - Name: ui_card_icon_death
+    Sprite: {fileID: 21300000, guid: c27fa0e7df37e4eb6948722fbba6bac3, type: 3}
+  - Name: ui_card_panel_zone_bg
+    Sprite: {fileID: 21300000, guid: 1c283670255914fb79d08dba79b5ab5b, type: 3}
+  - Name: ui_card_panel_zone_coming
+    Sprite: {fileID: 21300000, guid: 7c2321038edf7442785d189a25230d1d, type: 3}
+  - Name: ui_card_panel_zone_current
+    Sprite: {fileID: 21300000, guid: ef5cc65750f81460095ae82082d09b4b, type: 3}
+  - Name: ui_card_panel_zone_current_white
+    Sprite: {fileID: 21300000, guid: 39cfb7a5c9f834c4f87f8b65e1fc0b68, type: 3}
+  - Name: ui_card_panel_zone_super
+    Sprite: {fileID: 21300000, guid: b34556ad4bcf247ab841f59b62f23c91, type: 3}
+  - Name: ui_card_panel_zone_white
+    Sprite: {fileID: 21300000, guid: 39aae4ee706c74af79a9e692e1f647fc, type: 3}
+  - Name: ui_card_zone_map_frame
+    Sprite: {fileID: 21300000, guid: f6664f9c20ad1406185c95fa233bb1af, type: 3}
+  - Name: ui_icon_aviator_glasses_easter
+    Sprite: {fileID: 21300000, guid: ec43a4ba5ee5a4939a92d80839ef3ad4, type: 3}
+  - Name: ui_icon_baseball_cap_easter
+    Sprite: {fileID: 21300000, guid: 6b8585a0b4b144f54b1729ea0b1f24fd, type: 3}
+  - Name: ui_icon_helmet_pumpkin
+    Sprite: {fileID: 21300000, guid: 181a54a03eb41469297da574f001443f, type: 3}
+  - Name: ui_icon_mle_bayonet_easter_time
+    Sprite: {fileID: 21300000, guid: 17d3aa2f6128842a48bd122bc4785108, type: 3}
+  - Name: ui_icon_mle_bayonet_summer_vice
+    Sprite: {fileID: 21300000, guid: 48b32ec0fb0bd4946a5c5986735463f8, type: 3}
+  - Name: ui_icon_render_cons_grenade_m26
+    Sprite: {fileID: 21300000, guid: 822b04b9f5b9c481b9d9f6481fd39a20, type: 3}
+  - Name: ui_icon_render_cons_grenade_m67
+    Sprite: {fileID: 21300000, guid: 9cdcd6f940f6949f9939378cd1b26d55, type: 3}
+  - Name: ui_icon_render_cons_healthshot_2_neurostim
+    Sprite: {fileID: 21300000, guid: 08825c7fd26ae4f2f972151abc6b706b, type: 3}
+  - Name: ui_icon_render_cons_healthshot_2_regenerator
+    Sprite: {fileID: 21300000, guid: 9c00e125320d44a0f8546642d0154c97, type: 3}
+  - Name: ui_icon_render_t_cons_molotov
+    Sprite: {fileID: 21300000, guid: cb3dac78a1c8643ada8750fd2102a3ed, type: 3}
+  - Name: ui_spin_bronze_base
+    Sprite: {fileID: 21300000, guid: 9dacf5dcbbb3a4280a88330f64877be1, type: 3}
+  - Name: ui_spin_bronze_indicator
+    Sprite: {fileID: 21300000, guid: 7c5d4580db88e41fa90232935253a673, type: 3}
+  - Name: ui_spin_generic_button
+    Sprite: {fileID: 21300000, guid: 1db4c9e97276646aab3d28d022be58e1, type: 3}
+  - Name: ui_spin_golden_base
+    Sprite: {fileID: 21300000, guid: 7de9cf48cb1814611bb1a145a61037bd, type: 3}
+  - Name: ui_spin_golden_indicator
+    Sprite: {fileID: 21300000, guid: 6293d4cc164cd4ff2af0b4db81d8788f, type: 3}
+  - Name: ui_spin_silver_base
+    Sprite: {fileID: 21300000, guid: 0bbdb270c8a7a488585a7c28366cc5fc, type: 3}
+  - Name: ui_spin_silver_indicator
+    Sprite: {fileID: 21300000, guid: 33685b1d0b19742d29a2c4e0f24adc6c, type: 3}
+  - Name: ui_vfx_offer_shine
+    Sprite: {fileID: 21300000, guid: f2ee2aca82773401ba3eee09e4f4ccf3, type: 3}

@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b3a493bb377b4bf69aaa6d7e66c459a, type: 3}
+  m_Name: SilverWheel
+  m_EditorClassIdentifier: Vertigo.Fortune.Content::Vertigo.Fortune.Content.WheelDefinition
+  DisplayName: SILVER SPIN
+  Kind: 1
+  WheelSprite: {fileID: 21300000, guid: 0bbdb270c8a7a488585a7c28366cc5fc, type: 3}
+  IndicatorSprite: {fileID: 21300000, guid: 33685b1d0b19742d29a2c4e0f24adc6c, type: 3}
+  Slots:
+  - RewardId: cash
+    IsBomb: 0
+    AmountMultiplier: 2
+    ProgressionPool: []
+  - RewardId: gold
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool: []
+  - RewardId: silver_crate
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool: []
+  - RewardId: neon_rifle
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool:
+    - neon_rifle
+    - twilight_blade
+    - tactical_shotgun
+  - RewardId: sniper_points
+    IsBomb: 0
+    AmountMultiplier: 2
+    ProgressionPool:
+    - sniper_points
+    - pistol_points
+    - submachine_points
+    - rifle_points
+  - RewardId: baseball_cap
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool:
+    - baseball_cap
+    - aviator_glasses
+    - pumpkin_helmet
+  - RewardId: regenerator
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool:
+    - regenerator
+    - neurostim
+    - molotov
+    - grenade_m67
+  - RewardId: assault_crate
+    IsBomb: 0
+    AmountMultiplier: 1
+    ProgressionPool:
+    - assault_crate
+    - supply_crate
+    - bronze_crate
+    - small_crate
+  QuantityMultiplier: 2
+  PoolRotationInterval: 1
